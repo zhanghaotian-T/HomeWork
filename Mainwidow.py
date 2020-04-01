@@ -1,4 +1,5 @@
 from UI.test import Ui_MainWindow
+from UI.datachoose import Ui_Form
 from PySide2 import QtWidgets
 from PySide2.QtWidgets import *
 from PySide2.QtCore import *
@@ -14,7 +15,13 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.actionOpenFile.triggered.connect(self.opendatabase)
 
     def opendatabase(self):
-        print('1')
+        form = QtWidgets.QWidget()
+        ui = Ui_Form()
+        ui.setupUi(form)
+        form.show()
+        form.exec_()
+
+
 
     def datatransfer(self, input_dataframe, edit_table_weight):
         input_dataframe_rows = input_dataframe.shape[0]
@@ -31,6 +38,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 new_item = QTableWidgetItem(input_dataframe_items_list)
                 new_item.setTextAlignment(Qt.AlignHCenter|Qt.AlignVCenter)
                 edit_table_weight.setItem(i, j, new_item)
+
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)

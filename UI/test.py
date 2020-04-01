@@ -22,6 +22,8 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.actionOpenFile = QAction(MainWindow)
         self.actionOpenFile.setObjectName(u"actionOpenFile")
+        self.actionReadData = QAction(MainWindow)
+        self.actionReadData.setObjectName(u"actionReadData")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.gridLayout = QGridLayout(self.centralwidget)
@@ -44,6 +46,7 @@ class Ui_MainWindow(object):
 
         self.menubar.addAction(self.menuFile.menuAction())
         self.menuFile.addAction(self.actionOpenFile)
+        self.menuFile.addAction(self.actionReadData)
 
         self.retranslateUi(MainWindow)
 
@@ -52,7 +55,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.actionOpenFile.setText(QCoreApplication.translate("MainWindow", u"OpenFile", None))
+        self.actionOpenFile.setText(QCoreApplication.translate("MainWindow", u"LoadData", None))
+        self.actionReadData.setText(QCoreApplication.translate("MainWindow", u"ReadData", None))
         self.menuFile.setTitle(QCoreApplication.translate("MainWindow", u"File", None))
     # retranslateUi
 

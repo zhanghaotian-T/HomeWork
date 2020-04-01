@@ -34,13 +34,19 @@
      <string>File</string>
     </property>
     <addaction name="actionOpenFile"/>
+    <addaction name="actionReadData"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionOpenFile">
    <property name="text">
-    <string>OpenFile</string>
+    <string>LoadData</string>
+   </property>
+  </action>
+  <action name="actionReadData">
+   <property name="text">
+    <string>ReadData</string>
    </property>
   </action>
  </widget>
