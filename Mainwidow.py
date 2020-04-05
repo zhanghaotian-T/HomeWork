@@ -21,8 +21,6 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         form.show()
         form.exec_()
 
-
-
     def datatransfer(self, input_dataframe, edit_table_weight):
         input_dataframe_rows = input_dataframe.shape[0]
         input_dataframe_colunms = input_dataframe.shape[1]
