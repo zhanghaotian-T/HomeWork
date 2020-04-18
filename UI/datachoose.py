@@ -15,36 +15,18 @@ from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QFont,
     QRadialGradient)
 from PySide2.QtWidgets import *
 
-class Ui_Form(object):
-    def setupUi(self, Form):
-        if Form.objectName():
-            Form.setObjectName(u"Form")
-        Form.resize(648, 117)
-        self.gridLayout = QGridLayout(Form)
-        self.gridLayout.setObjectName(u"gridLayout")
-        self.groupBox_2 = QGroupBox(Form)
-        self.groupBox_2.setObjectName(u"groupBox_2")
-        self.verticalLayout = QVBoxLayout(self.groupBox_2)
-        self.verticalLayout.setObjectName(u"verticalLayout")
-        self.label_2 = QLabel(self.groupBox_2)
-        self.label_2.setObjectName(u"label_2")
-
-        self.verticalLayout.addWidget(self.label_2)
-
-        self.comboBox_2 = QComboBox(self.groupBox_2)
-        self.comboBox_2.setObjectName(u"comboBox_2")
-
-        self.verticalLayout.addWidget(self.comboBox_2)
-
-
-        self.gridLayout.addWidget(self.groupBox_2, 0, 1, 1, 1)
-
-        self.pushButton = QPushButton(Form)
-        self.pushButton.setObjectName(u"pushButton")
-
-        self.gridLayout.addWidget(self.pushButton, 1, 2, 1, 1)
-
-        self.groupBox = QGroupBox(Form)
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        if Dialog.objectName():
+            Dialog.setObjectName(u"Dialog")
+        Dialog.resize(530, 135)
+        self.verticalLayout_3 = QVBoxLayout(Dialog)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.widget = QWidget(Dialog)
+        self.widget.setObjectName(u"widget")
+        self.horizontalLayout = QHBoxLayout(self.widget)
+        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.groupBox = QGroupBox(self.widget)
         self.groupBox.setObjectName(u"groupBox")
         self.verticalLayout_2 = QVBoxLayout(self.groupBox)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
@@ -59,20 +41,48 @@ class Ui_Form(object):
         self.verticalLayout_2.addWidget(self.comboBox)
 
 
-        self.gridLayout.addWidget(self.groupBox, 0, 0, 1, 1)
+        self.horizontalLayout.addWidget(self.groupBox)
+
+        self.groupBox_2 = QGroupBox(self.widget)
+        self.groupBox_2.setObjectName(u"groupBox_2")
+        self.verticalLayout = QVBoxLayout(self.groupBox_2)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.label_3 = QLabel(self.groupBox_2)
+        self.label_3.setObjectName(u"label_3")
+
+        self.verticalLayout.addWidget(self.label_3)
+
+        self.comboBox_2 = QComboBox(self.groupBox_2)
+        self.comboBox_2.setObjectName(u"comboBox_2")
+
+        self.verticalLayout.addWidget(self.comboBox_2)
 
 
-        self.retranslateUi(Form)
+        self.horizontalLayout.addWidget(self.groupBox_2)
 
-        QMetaObject.connectSlotsByName(Form)
+
+        self.verticalLayout_3.addWidget(self.widget)
+
+        self.buttonBox = QDialogButtonBox(Dialog)
+        self.buttonBox.setObjectName(u"buttonBox")
+        self.buttonBox.setOrientation(Qt.Horizontal)
+        self.buttonBox.setStandardButtons(QDialogButtonBox.Cancel|QDialogButtonBox.Ok)
+
+        self.verticalLayout_3.addWidget(self.buttonBox)
+
+
+        self.retranslateUi(Dialog)
+        self.buttonBox.accepted.connect(Dialog.accept)
+        self.buttonBox.rejected.connect(Dialog.reject)
+
+        QMetaObject.connectSlotsByName(Dialog)
     # setupUi
 
-    def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
-        self.groupBox_2.setTitle(QCoreApplication.translate("Form", u"GroupBox", None))
-        self.label_2.setText(QCoreApplication.translate("Form", u"Stage", None))
-        self.pushButton.setText(QCoreApplication.translate("Form", u"YES", None))
-        self.groupBox.setTitle(QCoreApplication.translate("Form", u"GroupBox", None))
-        self.label.setText(QCoreApplication.translate("Form", u"Project", None))
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
+        self.groupBox.setTitle(QCoreApplication.translate("Dialog", u"GroupBox", None))
+        self.label.setText(QCoreApplication.translate("Dialog", u"Project", None))
+        self.groupBox_2.setTitle(QCoreApplication.translate("Dialog", u"GroupBox", None))
+        self.label_3.setText(QCoreApplication.translate("Dialog", u"Stage", None))
     # retranslateUi
 
