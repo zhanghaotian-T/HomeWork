@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import re
+from doc_save import *
 
 
 class TestAnalays(object):
@@ -43,14 +44,23 @@ class TestAnalays(object):
                     filter_dataframe[sequence_filter] = data_groups.get_group(sequence)
                 else:
                     filter_dataframe[sequence_filter].append(data_groups.get_group(sequence))
-        return source_dataframe
+        return filter_dataframe,
 
-    def outputpower_analysi(self, source_dict):
+    def senary_size_analysis(self, args):
+        edit_save = DocEdit()
+        if type(args) == dict:
+            for key in args.keys():
+                coloumns = args[key].size
+                edit_save.add_paragraph({key: coloumns})
 
+    def source_dataframe_classfy(self, input_dataframe, filter_name):
         pass
+
 
 if __name__ == '__main__':
     analysis_tool = TestAnalays()
     dataframe = analysis_tool.open_resource()
-    analysis_tool.test_result_classify(dataframe)
+    source = analysis_tool.test_result_classify(dataframe)
+    analysis_tool.senary_size_analysis(source)
+
 
