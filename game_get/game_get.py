@@ -58,10 +58,9 @@ class GameAuto(object):
         try:
             web_driver.find_element_by_link_text(u'登录').click()
             web_driver.switch_to_frame('loginIframe')
-            web_driver.find_elements_by_class_name('face').click()
-            # web_driver.find_element_by_link_text(u'帐号密码登录').click()
-            # web_driver.find_element_by_name('u').send_keys(user_name)
-            # web_driver.find_element_by_id('p').send_keys(user_password)
+            web_driver.find_element_by_link_text(u'帐号密码登录').click()
+            web_driver.find_element_by_name('u').send_keys(user_name)
+            web_driver.find_element_by_id('p').send_keys(user_password)
             # web_driver.find_element_by_id('login_button').click()
         except Exception as e:
             print(e)

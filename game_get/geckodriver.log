@@ -768,3 +768,216 @@ JavaScript error: https://ossweb-img.qq.com/images/js/milo_bundle/milo.js, line 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1602382366176	geckodriver	INFO	Listening on 127.0.0.1:2085
+1602382369058	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofileJ004cH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602382371169	Marionette	INFO	Listening on port 2095
+1602382371174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/cf/script/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1574: unreachable code after return statement
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1598: unreachable code after return statement
+1602382430911	Marionette	INFO	Stopped listening on port 2095
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602382433291	geckodriver	INFO	Listening on 127.0.0.1:2183
+1602382436297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofile9FozWO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602382437970	Marionette	INFO	Listening on port 2192
+1602382438305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.douyu.com/tpl/h5/chain2/douyuCF/605964, line 33: SyntaxError: missing : after property id
+JavaScript error: https://cf.qq.com/act/3676/a20200908fcdl/js/match.js, line 246: TypeError: dataList.clanLogoList.filter(...)[0] is undefined
+JavaScript error: https://open.douyu.com/staticp/js2/h5Player_1111.js?v=2020092201, line 1: TypeError: Not in fullscreen mode
+JavaScript error: https://game.gtimg.cn/images/cf/title/gg.js?v=14, line 2: ReferenceError: gAds16592 is not defined
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:OUT.login.qq();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2063:69
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+onSources@resource://devtools/server/actors/thread.js:1452:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:OUT.login.qq();'
+JavaScript error: https://ossweb-img.qq.com/images/js/milo_bundle/milo.js, line 3: InternalError: too much recursion
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:OUT.login.qq();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2063:69
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+onSources@resource://devtools/server/actors/thread.js:1452:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:OUT.login.qq();'
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.douyu.com/tpl/h5/chain2/douyuCF/605964, line 33: SyntaxError: missing : after property id
+JavaScript error: https://open.douyu.com/staticp/js2/h5Player_1111.js?v=2020092201, line 1: TypeError: Not in fullscreen mode
+JavaScript error: https://cf.qq.com/act/3676/a20200908fcdl/js/match.js, line 246: TypeError: dataList.clanLogoList.filter(...)[0] is undefined
+JavaScript error: https://ossweb-img.qq.com/images/js/milo_bundle/milo.js, line 3: InternalError: too much recursion
+1602382679060	Marionette	INFO	Stopped listening on port 2192
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602382951196	geckodriver	INFO	Listening on 127.0.0.1:2516
+1602382954201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofiletdn1Y7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602382955938	Marionette	INFO	Listening on port 2524
+1602382956211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/cf/script/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1574: unreachable code after return statement
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1598: unreachable code after return statement
+1602382982192	Marionette	INFO	Stopped listening on port 2524
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602382983971	geckodriver	INFO	Listening on 127.0.0.1:2608
+1602382986977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofileY3MTyv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602382988722	Marionette	INFO	Listening on port 2616
+1602382988985	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.douyu.com/tpl/h5/chain2/douyuCF/605964, line 33: SyntaxError: missing : after property id
+JavaScript error: https://cf.qq.com/act/3676/a20200908fcdl/js/match.js, line 246: TypeError: dataList.clanLogoList.filter(...)[0] is undefined
+JavaScript error: https://open.douyu.com/staticp/js2/h5Player_1111.js?v=2020092201, line 1: TypeError: Not in fullscreen mode
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:OUT.login.qq();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2063:69
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+onSources@resource://devtools/server/actors/thread.js:1452:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:OUT.login.qq();'
+JavaScript error: https://ossweb-img.qq.com/images/js/milo_bundle/milo.js, line 3: InternalError: too much recursion
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 1536: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2820: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2942: unreachable code after return statement
+JavaScript warning: https://ossweb-img.qq.com/images/ams/atm/reporting.js?action=331440, line 5: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2942: unreachable code after return statement
+JavaScript error: https://apps.idata.qq.com/outer/doreport?gameid=cf&act_id=325301&table_type=1&channel=webtips&tarPage=https://cf.qq.com/cp/a20200914pull/pc/index.shtml&uin=&isjson=1&url=https://cf.qq.com/cp/a20200914festival/index.shtml, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://ossweb-img.qq.com/images/js/milo_bundle/milo.js, line 3: InternalError: too much recursion
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.child2/domnode561, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 285 getMutations
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.child2/domnode574, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 285 getMutations
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.child2/domnode574, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 285 getMutations
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 1536: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2820: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2942: unreachable code after return statement
+JavaScript warning: https://ossweb-img.qq.com/images/ams/atm/reporting.js?action=331440, line 5: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2942: unreachable code after return statement
+JavaScript error: https://video.qq.com/getcookie/cookie.html, line 9: SecurityError: Permission denied to access property "loadVideoCookie" on cross-origin object
+JavaScript error: https://apps.idata.qq.com/outer/doreport?gameid=cf&act_id=325301&table_type=1&channel=webtips&tarPage=https://cf.qq.com/cp/a20200914pull/pc/index.shtml&uin=&isjson=1&url=https://cf.qq.com/cp/a20200914festival/index.shtml, line 1: SyntaxError: unexpected token: ':'
+JavaScript warning: https://ossweb-img.qq.com/images/js/milo/ams/flowengine.js?1597741088577, line 813: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 2820: unreachable code after return statement
+JavaScript warning: https://cf.qq.com/cp/a20200914festival/COMMON.js, line 1536: unreachable code after return statement
+JavaScript error: https://cf.qq.com/cp/a20200914festival/index.shtml, line 1: ReferenceError: PTTsendClick is not defined
+1602384690758	geckodriver	INFO	Listening on 127.0.0.1:3167
+1602384693757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofileQ5Ktdb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602384695495	Marionette	INFO	Listening on port 3175
+1602384695765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/cf/script/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1574: unreachable code after return statement
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1598: unreachable code after return statement
+1602384722640	Marionette	INFO	Stopped listening on port 3175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602384723571	geckodriver	INFO	Listening on 127.0.0.1:3259
+1602384726566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofilepjDIxz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602384728283	Marionette	INFO	Listening on port 3267
+1602384728575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://cf.qq.com/act/3676/a20200908fcdl/js/match.js, line 246: TypeError: dataList.clanLogoList.filter(...)[0] is undefined
+JavaScript error: https://open.douyu.com/tpl/h5/chain2/douyuCF/605964, line 33: SyntaxError: missing : after property id
+JavaScript error: https://open.douyu.com/staticp/js2/h5Player_1111.js?v=2020092201, line 1: TypeError: Not in fullscreen mode
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:OUT.login.qq();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2063:69
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+onSources@resource://devtools/server/actors/thread.js:1452:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:OUT.login.qq();'
+1602384867139	geckodriver	INFO	Listening on 127.0.0.1:3403
+1602384870138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofile7FGAf2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602384871889	Marionette	INFO	Listening on port 3411
+1602384872148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/cf/script/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1574: unreachable code after return statement
+JavaScript warning: https://ams.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js, line 1598: unreachable code after return statement
+1602384889706	Marionette	INFO	Stopped listening on port 3411
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602384890644	geckodriver	INFO	Listening on 127.0.0.1:3489
+1602384893650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HAOTIA~1\\AppData\\Local\\Temp\\rust_mozprofileKHmPl2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602384895394	Marionette	INFO	Listening on port 3497
+1602384895658	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://open.douyu.com/tpl/h5/chain2/douyuCF/605964, line 33: SyntaxError: missing : after property id
+JavaScript error: https://cf.qq.com/act/3676/a20200908fcdl/js/match.js, line 246: TypeError: dataList.clanLogoList.filter(...)[0] is undefined
+JavaScript error: https://open.douyu.com/staticp/js2/h5Player_1111.js?v=2020092201, line 1: TypeError: Not in fullscreen mode
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:OUT.login.qq();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2063:69
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+onSources@resource://devtools/server/actors/thread.js:1452:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:OUT.login.qq();'
